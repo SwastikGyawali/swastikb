@@ -1,0 +1,121 @@
+/* style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e7e7;
+    color: #4c4c4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.question-box {
+    background: #ff6f61;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Buttons Styling */
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.yes {
+    background-color: #4caf50;
+    color: white;
+}
+
+.no {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Hover Effect */
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .question-box {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .button {
+        font-size: 1.2rem;
+    }
+}
+/* Add to style.css */
+
+/* Styling for the love story page */
+.love-story-box {
+    background: #ffb3b3;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.love-story-box h1 {
+    font-size: 3rem;
+    color: #d6336c;
+    margin-bottom: 20px;
+}
+
+.love-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.love-story-box p {
+    font-size: 1.2rem;
+    color: #4c4c4c;
+    margin-top: 20px;
+}
+
+/* Responsive for love story page */
+@media (max-width: 600px) {
+    .love-story-box h1 {
+        font-size: 2rem;
+    }
+
+    .love-image {
+        max-width: 100%;
+    }
+}
